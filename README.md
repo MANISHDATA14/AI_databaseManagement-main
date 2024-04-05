@@ -1,2 +1,16 @@
-# AI_databaseManagement-main
-AI_databaseManagement-main is a repository focused on integrating AI technologies with database management systems. It includes tools and scripts for automating database tasks, optimizing queries, and implementing machine learning models to enhance data analysis, storage efficiency, and security measures, catering to developers and database.
+# AIDatabaseManagement
+
+This is a AI agent for managing database.
+
+To use this AI Assistant create a database in postgresql db.
+
+Name: AI_Management_DB
+
+Now run `db-create.sql` file to create tables.
+
+After all database setup. Install requirements packages from `requirements.txt` file.
+
+Create `.env` file and put `example.env` file for openai api key.
+
+**To run app**
+`streamlit run app.py`
